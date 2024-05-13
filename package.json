@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/linkscraper",
+  "version": "1.0.0",
+  "description": "Link Scraper is a simple tool for scraping web page links. It returns all the links on a web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/linkscraper-API.git"
+  },
+  "keywords": [
+    "link scraper"," link scraper api"," link scraping api"," link scraper tool"," link scraping tool"," link scraper software"," link scraping software"," link scraper service"," link scraping service"," link scraper library"," link scraping library"," link scraper sdk"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/linkscraper-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/linkscraper-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
